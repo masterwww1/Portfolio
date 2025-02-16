@@ -3,15 +3,14 @@ import { heroSection } from '@/lib/content/hero';
 import useWindowWidth from '@/lib/hooks/use-window-width';
 import { getBreakpointsWidth } from '@/lib/utils/helper';
 
-import { Button, Wrapper } from '@/components';
+import { Wrapper } from '@/components';
 
 import { slideUp } from '@/styles/animations';
 
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-  const { cta, subtitle, title, tagline, description, specialText } =
-    heroSection;
+  const { subtitle, title, tagline, description, specialText } = heroSection;
 
   const windowWidth = useWindowWidth();
   const md = getBreakpointsWidth('md');
@@ -70,23 +69,6 @@ const Hero = () => {
       >
         {specialText}
       </motion.p>
-
-      {cta && (
-        <Button
-          size="lg"
-          type="link"
-          variants={slideUp({ delay: getAnimationDelay(5) })}
-          initial="hidden"
-          animate="show"
-          href={cta?.url ?? '#'}
-          className={`mt-5 xs:mt-8 md:mt-10 ${
-            cta.hideInDesktop ? 'md:hidden' : ''
-          }`}
-          sameTab={cta?.sameTab}
-        >
-          {cta.title}
-        </Button>
-      )}
     </Wrapper>
   );
 };
