@@ -4,7 +4,7 @@ import { author } from '@/lib/content/portfolio';
 import useWindowWidth from '@/lib/hooks/use-window-width';
 import { getBreakpointsWidth } from '@/lib/utils/helper';
 
-import { Button, DarkModeButton, Link as CLink, NavButton } from '@/components';
+import { DarkModeButton, Link as CLink, NavButton } from '@/components';
 
 import { fadeIn, slideIn } from '@/styles/animations';
 
@@ -72,7 +72,7 @@ const NavItem = ({ href, children, onClick, index, delay }: NavItemsProps) => {
 };
 
 const Navbar = () => {
-  const { cta, navLinks } = navbarSection;
+  const { navLinks } = navbarSection;
   const [navbarCollapsed, setNavbarCollapsed] = useState(false);
 
   const windowWidth = useWindowWidth();
