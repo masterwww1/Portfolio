@@ -1,8 +1,8 @@
 <h1 align="center">
-  vatsalsinghkv.vercel.app
+  masterwww.vercel.app
 </h1>
 <p align="center">
-  A portfolio website i.e. <a href="https://vatsalsinghkv.vercel.app" target="_blank">vatsalsinghkv.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  A portfolio website i.e. <a href="https://masterwww.vercel.app" target="_blank">masterwww.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
@@ -13,8 +13,6 @@
 </p>
 
 <br>
-
-[![My Portfolio](https://user-images.githubusercontent.com/68834718/214532356-7c56cdbd-0136-4d24-a532-d27e160ae72d.png)](https://vatsalsinghkv.vercel.app/)
 
 ## Table of Contents
 
@@ -51,7 +49,7 @@
 
 1. Fork this repository and clone the project
 
-###### Please give me proper credit by linking back to [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app).
+###### Please give me proper credit by linking back to [masterwww.vercel.app](https://masterwww.vercel.app).
 
 ```bash
   git clone https://github.com/<YOUR USERNAME>/portfolio-website.git
@@ -77,8 +75,6 @@
 
 - To change the content, edit `src/lib/content/`
 
-- To change the **resume**, change `/public/resume.pdf` with your resume (name must be `resume.pdf`)
-
 - To change the **About Section**, edit `src/containers/About.tsx`
 
 - To change the theme, edit `src/styles/globals.css`
@@ -93,8 +89,8 @@ Remember, Good PR makes you a Good contributor!
 2. Follow [Contributing Guidelines](/CONTRIBUTING.md).
 
 <div align="center">
-  <a href="https://github.com/vatsalsinghkv/portfolio-website/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=vatsalsinghkv/portfolio-website" />
+  <a href="https://github.com/masterwww/portfolio-website/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=masterwww/portfolio-website" />
   </a>
 </div>
 
@@ -109,13 +105,9 @@ Remember, Good PR makes you a Good contributor!
 
 ## Contact
 
-- Discord - [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA)
-- Website - [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app)
-- Github - [@vatsalsinghkv](https://github.com/vatsalsinghkv)
-- LinkedIn - [@vatsalsinghkv](https://www.linkedin.com/in/vatsalsinghkv/)
-- Twitter - [@vatsalsinghkv](https://www.twitter.com/vatsalsinghkv)
-- Instagram - [@vatsalsinghkv](https://www.instagram.com/vatsalsinghkv)
-- Facebook - [@vatsalsinghkv](https://www.facebook.com/vatsal.singh.kv)
+- Discord - [https://discord.gg/smarter0622](https://discord.gg/smarter0622)
+- Website - [masterwww.vercel.app](https://masterwww.vercel.app)
+- Github - [@masterwww](https://github.com/masterwww)
 
 ## Acknowledgements
 
@@ -127,4 +119,4 @@ Remember, Good PR makes you a Good contributor!
 
 Give a ⭐️ if you liked this project!
 
-[Scroll to Top](#--vatsalsinghkvvercelapp)
+[Scroll to Top](#--masterwwwvercelapp)

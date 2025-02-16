@@ -9,8 +9,6 @@ export type SocialLinkType = {
 };
 
 export type CTAType = {
-  title: string;
-  url: string;
   sameTab?: boolean;
 };
 
